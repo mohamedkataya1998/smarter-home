@@ -1,0 +1,738 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    --main-color: #fe607c;
+    --secondry-color: #f88271;
+    --grayPink-color: #33292b;
+    --background-section-color: #dbb5c0;
+    --background-secondrySection-color: #2e2933;
+}
+
+.main-button {
+    background-color: var(--main-color);
+    color: white;
+    padding: 5px 20px;
+    margin-bottom: 0;
+    border-radius: 45px;
+    transition: 0.3s;
+    border: none;
+    width: fit-content;
+}
+
+.main-button:hover {
+    background-color: var(--secondry-color);
+}
+
+/* start header */
+header nav {
+    background-color: black;
+}
+
+header nav .container .logo img {
+    width: 55px;
+    height: 62px;
+}
+
+header nav .container ul li {
+    margin-right: 10px;
+}
+
+header nav .container ul li a {
+    color: white;
+}
+
+header nav .container ul li a:hover {
+    color: white;
+}
+
+header nav .container ul li .dropdown-menu {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: var(--grayPink-color);
+    font-size: 14px;
+}
+
+header nav .container ul li .dropdown-menu li {
+    width: 100%;
+    height: 100%;
+}
+
+header nav .container ul li .dropdown-menu li a {
+    padding: 10px;
+}
+
+header nav .container ul li .dropdown-menu li:hover {
+    background-color: var(--main-color);
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+    background-color: var(--main-color);
+}
+
+.navbar-toggler:focus {
+    color: var(--main-color);
+}
+
+.navbar-toggler-icon {
+    background-image: #f88271;
+}
+
+/* end header */
+/* start main */
+/* start top */
+main .top {
+    background-color: var(--background-section-color);
+}
+
+main .top .container .row .image {
+    width: 598px;
+    height: 663px;
+    align-content: end;
+}
+
+main .top .container .row .image img{
+    width: 100%;
+}
+
+main .top .container .content h1 {
+    font-size: 60px;
+    font-weight: bold;
+    color: #111111;
+    font-family: "Urbanist", sans-serif;
+}
+
+main .top .container .content .button {
+    display: block;
+    color: #000000;
+    border: 1px solid black;
+    padding: 19px 64px 20px 63px;
+    margin-bottom: 10px;
+    border-radius: 45px;
+    font-size: 14px;
+    font-weight: bold;
+    width: fit-content;
+    transition: 0.3s;
+}
+
+main .top .container .content .button:hover {
+    background-color: black;
+    color: white;
+}
+
+main .top .container .content .icons {
+    display: flex;
+    align-items: center;
+}
+
+main .top .container .content .icons .icon img {
+    width: 31.5px;
+    height: 31.5px;
+}
+main .top .container .content .icons .icon .circle {
+    content:"";
+    border: 1px solid black;
+    width: 57.99px;
+    height: 57.99px;
+    border-radius: 50%;
+    top: 56%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+main .top .container .content .icons .icon:first-child {
+    margin-right: 35px;
+}
+
+main .top .container .content .icons .icon:first-child .circle {
+    left: 38%;
+}
+main .top .container .content .app span a {
+    color: black;
+    text-decoration-color: red;
+}
+
+/* end top */
+/* start new way */
+main .new-way .container .title {
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+main .new-way .container .title h2 {
+    font-size: 48px;
+    font-family: "Urbanist", sans-serif;
+    color: #111111;
+}
+
+main .new-way .container .title p {
+    width: 50%;
+    margin: auto;
+}
+main .new-way .container .cards {
+    align-content: center;
+    justify-content: center;
+    gap: 15px;
+    color: #111111;
+}
+
+main .new-way .container .cards .card {
+    background-size: cover;
+    background-position: center;
+    width: 270px;
+    height: 300px;
+    justify-content: center;
+    border-radius: 43px;
+    color: white;
+    border: 1px solid var(--main-color);
+}
+
+main .new-way .container .cards .card.one {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35),
+            rgba(0, 0, 0, 0.35)),
+        url(/img/smart-home-5.jpg);
+}
+
+main .new-way .container .cards .card.two {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35),
+            rgba(0, 0, 0, 0.35)),
+        url(/img/close-up-woman-using-virtual-ass.jpg);
+}
+
+main .new-way .container .cards .card.three {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35),
+            rgba(0, 0, 0, 0.35)),
+        url(/img/person-using-smartphone-his-auto.jpg);
+}
+
+main .new-way .container .cards .card.four {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.35),
+            rgba(0, 0, 0, 0.35)),
+        url(/img/person-showcasing-their-home-through-smartphone_23-2151624895.jpg);
+}
+
+main .new-way .container .cards .card .icon {
+    background: linear-gradient(164deg, var(--main-color), var(--secondry-color));
+    padding: 25px;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* end new way */
+/* start about us */
+main .about-us .container .left-section .title {
+    color: var(--main-color);
+}
+
+main .about-us .container .left-section .content h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+main .about-us .container .left-section .content p span {
+    color: var(--main-color);
+    cursor: pointer;
+}
+
+main .about-us .container .left-section .option .image img {
+    width: 100%;
+    height: 100%;
+}
+
+main .about-us .container .left-section .option .option-list ul li div {
+    left: -20px;
+    top: 4px;
+    text-align: center;
+
+}
+
+main .about-us .container .left-section .option .option-list ul li div svg {
+    color: var(--main-color);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+main .about-us .container .left-section .main-button.black-hover:hover {
+    background-color: black;
+}
+
+main .about-us .container .right-section .image img {
+    width: 353px;
+    height: 294px;
+    border-radius: 49px;
+}
+
+main .about-us .container .right-section .image .number {
+    background-color: var(--main-color);
+    width: 250px;
+    height: 200px;
+    border-radius: 70px;
+    align-items: center;
+    color: white;
+    bottom: -45%;
+    left: 3%;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+main .about-us .container .right-section .image .number span:first-child {
+    font-size: 57px;
+}
+
+main .about-us .container .right-section .quote {
+    padding-top: 180px;
+}
+
+main .about-us .container .right-section .quote svg {
+    font-size: 82px;
+    color: var(--main-color);
+    padding: 0px 45px 0 20px;
+}
+
+main .about-us .container .right-section .quote .text span:first-child {
+    line-height: 1.9;
+    font-size: 20px;
+}
+
+main .about-us .container .right-section .quote .text span:last-child {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* end about us */
+/* start home heart */
+main .home-heart {
+    background-color: var(--background-section-color);
+}
+
+main .home-heart .container .image {
+    z-index: 2;
+}
+
+main .home-heart .container .image::before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(90deg, var(--main-color), var(--secondry-color));
+    width: 388px;
+    height: 388px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+main .home-heart .container .image img {
+    width: 350px;
+    height: auto;
+}
+
+main .home-heart .container .content .icon img {
+    width: 64px;
+    height: 64px;
+    margin-right: 20px;
+}
+
+main .home-heart .container .content p a {
+    color: black;
+    text-decoration-line: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 1px;
+}
+
+main .home-heart .container .content .icon p {
+    margin: 0 0 -26px 0;
+}
+
+main .home-heart .container .content .main-button.black-hover:hover {
+    background-color: black;
+}
+
+/* end home heart */
+/* start network */
+main .network .container .content .title span {
+    font-size: 20px;
+}
+
+main .network .container .content .title h2 {
+    font-size: 48px;
+}
+
+main .network .container .content .title p {
+    font-size: 18px;
+}
+
+main .network .container .content .title p a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid var(--main-color);
+    transition: 0.2s;
+}
+
+main .network .container .content .title p a:hover {
+    color: var(--main-color);
+    border-color: black;
+}
+
+main .network .container .content .box {
+    border-bottom: 1px dotted #0000006e;
+    padding-bottom: 25px;
+}
+
+main .network .container .content .box img {
+    background: linear-gradient(182deg, var(--main-color), var(--secondry-color));
+    padding: 8px;
+    border-radius: 50%;
+    width: 64px;
+    height: 64px;
+}
+
+main .network .container .content .box .text h2 {
+    font-size: 24px;
+}
+
+main .network .container .content .box .text p {
+    font-size: 18px;
+}
+
+main .network .container .content .main-button.black-hover:hover {
+    background-color: black;
+}
+
+main .network .container .image img {
+    height: 580px;
+}
+
+/* end network */
+/* start about smart */
+main .about-smart {
+    background-color: var(--background-secondrySection-color);
+}
+
+main .about-smart .container .image img {
+    border-radius: 50px;
+    width: 450px;
+}
+
+main .about-smart .container .content {
+    padding: 0 10px 0px 35px;
+}
+
+main .about-smart .container .content h2 {
+    font-size: 48px;
+    color: white;
+    font-weight: bold;
+    margin-left: -24px;
+}
+
+main .about-smart .container .content .option-list ul li {
+    color: #eee;
+    font-size: 18px;
+}
+
+main .about-smart .container .content .option-list ul li div {
+    left: -35px;
+    top: 4px;
+    text-align: center;
+
+}
+
+main .about-smart .container .content .option-list ul li div svg {
+    color: var(--main-color);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+main .about-smart .container .content span {
+    color: #eee;
+    margin-left: -21px;
+    margin-top: 12px;
+    display: block;
+    letter-spacing: 2;
+}
+
+main .about-smart .container .content span a {
+    text-decoration: none;
+    color: white;
+    border-bottom: 1px solid;
+    border-color: var(--main-color);
+}
+
+main .about-smart .container .content span a:hover {
+    color: #eee;
+    border-color: white;
+}
+
+main .about-smart .container .content .main-button.white-hover:hover {
+    background-color: white;
+    color: var(--main-color);
+}
+
+/* end about smart */
+/* start mobile app */
+main .mobile-app .container .title h2 {
+    font-size: 48px;
+}
+
+main .mobile-app .container .title p {
+    font-size: 16px;
+}
+
+main .mobile-app .container .title p a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid var(--main-color);
+}
+
+main .mobile-app .container .title p a:hover {
+    color: var(--main-color);
+    border-color: black;
+}
+
+main .mobile-app .container .row .user-review {
+    justify-items: center;
+    background-color: var(--main-color);
+}
+
+main .mobile-app .container .row .user-review img {
+    width: 64px;
+    height: 64px;
+}
+
+main .mobile-app .container .row .user-review span:first-of-type {
+    font-size: 96px;
+    color: white;
+    font-weight: bold;
+}
+
+main .mobile-app .container .row .user-review span:last-of-type {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+}
+
+main .mobile-app .container .boxs {
+    padding: 35px;
+    text-align: center;
+}
+
+main .mobile-app .container .boxs h3 {
+    color: var(--main-color);
+    font-size: 48px;
+}
+
+main .mobile-app .container .boxs h6 {
+    font-size: 18px;
+}
+
+/* end mobile app */
+/* start get smart */
+main .get-smart .container .title h2 {
+    font-size: 48px;
+}
+
+main .get-smart .container .title p a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 1px solid var(--main-color);
+}
+
+main .get-smart .container .title p a:hover {
+    border-color: black;
+}
+
+main .get-smart .container .image img {
+    width: 100%;
+    max-width: 620px;
+}
+
+main .get-smart .container .image .circle {
+    width: 800px;
+    height: 400px;
+    background-color: var(--main-color);
+    border-radius: 25rem 25rem 0 0;
+    bottom: 0;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -0%);
+    z-index: -1;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* end get smart */
+/* start have question */
+main .have-question {
+    background-color: var(--background-secondrySection-color);
+}
+
+main .have-question .container .content img {
+    width: 64px;
+    height: 64px;
+}
+
+main .have-question .container .content h2 {
+    font-size: 48px;
+    color: white;
+}
+
+main .have-question .container .content input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 25px;
+    padding: 10px;
+    outline: none;
+    caret-color: white;
+    color: white;
+}
+
+main .have-question .container .content .phone label {
+    color: #eee;
+}
+
+main .have-question .container .content .phone input {
+    width: 450px;
+}
+
+main .have-question .container .content .text-area textarea {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    margin-bottom: 25px;
+    padding: 10px;
+    outline: none;
+    caret-color: white;
+    color: white;
+    width: 450px;
+    height: 150px;
+}
+
+main .have-question .container .content .form-check {
+    color: white;
+}
+
+main .have-question .container .content .form-check input {
+    background-color: white;
+    padding: 0;
+    border-radius: 0;
+    border: none;
+    outline: none;
+
+}
+
+main .have-question .container .content .form-check input:checked {
+    background-color: var(--main-color);
+}
+
+main .have-question .container .content .form-check label a {
+    color: var(--main-color);
+    text-decoration: none;
+}
+
+main .have-question .container .content .form-check label a:hover {
+    opacity: 0.9;
+}
+
+main .have-question .container .content .main-button.white-hover:hover {
+    background-color: white;
+    color: black;
+}
+
+main .have-question .container .content span {
+    color: white;
+}
+
+main .have-question .container .content span a {
+    text-decoration: none;
+    color: #eee;
+    border-bottom: 1px solid var(--main-color);
+    padding-bottom: 4px;
+}
+
+main .have-question .container .content span a:hover {
+    color: #eeee;
+    border-color: white;
+}
+
+/* end have question */
+/* end main */
+/* start footer */
+footer {
+    background-color: var(--background-secondrySection-color);
+    color: white;
+    border-top: 1px solid #777;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+footer .container .main-office p {
+    color: #eee;
+}
+
+footer .container .main-office p a {
+    text-decoration: none;
+    color: #eee;
+}
+
+footer .container .main-office p a:hover {
+    color: var(--main-color);
+}
+
+footer .container .main-office svg {
+    color: var(--secondry-color);
+}
+
+footer .container .main-office div {
+    color: #eee;
+}
+
+footer .container .main-office div a {
+    text-decoration: none;
+    border-bottom: 1px solid var(--main-color);
+    padding-bottom: 3px;
+    color: white;
+}
+
+footer .main-office div a:hover {
+    color: #eee;
+    border-color: white;
+}
+
+footer .container ul li {
+    color: #eee;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+footer .container .line {
+    border-bottom: 1px solid var(--main-color);
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+footer .container .copyright {
+    color: #eee;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+footer .container .copyright a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+    border-bottom: 1px solid white;
+}
+
+footer .container .copyright a:hover {
+    color: #eee;
+    border-color: var(--main-color);
+}
+
+/* end footer */
